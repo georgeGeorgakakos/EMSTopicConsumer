@@ -85,6 +85,12 @@ Headers:
 Body: (empty)
 ```
 
+
+<img width="844" height="840" alt="image" src="https://github.com/user-attachments/assets/8aa9a5a0-b2d7-4ac7-b16f-ca41e603fc32" />
+<img width="745" height="780" alt="image" src="https://github.com/user-attachments/assets/587ef1d0-f963-48c0-bb4a-b7febe54a5df" />
+
+
+
 ### Header Reference
 
 | Header | Group | Description | Example |
