@@ -1,10 +1,10 @@
 # OptimusDB EMS Topic Consumer
 
-A standalone STOMP client for consuming and producing messages on the OptimusDB EMS broker (ActiveMQ / TIBCO EMS). Designed to work alongside the [OptimusDB](https://github.com/georgegeorgakakos/optimusdb) distributed database cluster.
+A standalone STOMP client for consuming and producing messages on the OptimusDB EMS broker. Designed to work alongside the [OptimusDB](https://github.com/georgegeorgakakos/optimusdb) distributed database cluster.
 
 ## Overview
 
-OptimusDB uses an EMS (Enterprise Messaging Service) broker for event-driven communication between nodes and external systems. Messages are published to STOMP topics and consumed by OptimusDB agents via the `ems_subscriber.go` module.
+OptimusDB uses an EMS (Enterprise Monitoring System) broker for event-driven communication between nodes and external systems. Messages are published to STOMP topics and consumed by OptimusDB agents via the `ems_subscriber.go` module.
 
 This client provides a standalone tool to:
 
@@ -19,9 +19,9 @@ This client provides a standalone tool to:
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│                    EMS Broker                            │
-│              (ActiveMQ / TIBCO EMS)                      │
-│                  STOMP :61610                            │
+│                    EMS Broker                           │
+│                                                         │
+│                  STOMP :61610                           │
 │                                                         │
 │  /topic/response_time_SENSOR                            │
 │  /topic/cpu_util_instance                               │
