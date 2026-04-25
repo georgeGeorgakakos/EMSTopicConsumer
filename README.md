@@ -2,6 +2,8 @@
 
 A standalone STOMP client for consuming and producing messages on the OptimusDB EMS broker. Designed to work alongside the [OptimusDB](https://github.com/georgegeorgakakos/optimusdb) distributed database cluster.
 
+> 📘 **Building your own integration?** See the [External Integration Guide](INTEGRATION_GUIDE.md) for step-by-step instructions.
+
 ## Overview
 
 OptimusDB uses an EMS (Enterprise Monitoring System) broker for event-driven communication between nodes and external systems. Messages are published to STOMP topics and consumed by OptimusDB agents via the `ems_subscriber.go` module.
