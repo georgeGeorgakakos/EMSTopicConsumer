@@ -2,7 +2,7 @@
 
 A standalone STOMP client for consuming and producing messages on the OptimusDB EMS broker. Designed to work alongside the [OptimusDB](https://github.com/georgegeorgakakos/optimusdb) distributed database cluster.
 
-> 📘 **Building your own integration?** See the [External Integration Guide](INTEGRATION_GUIDE.md) for step-by-step instructions.
+> 📘 **Building your own integration?** See the [External Integration Guide](External_Integration_Guide.md) for step-by-step instructions.
 
 ## Overview
 
